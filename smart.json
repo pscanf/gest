@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "iron-router": {},
+    "collection2": {},
+    "roles": {},
+    "accounts-admin-ui-bootstrap-3": {},
+    "spin": {},
+    "font-awesome": {},
+    "accounts-ui-bootstrap-3": {},
+    "collection-hooks": {},
+    "fast-render": {},
+	"reactive-table": {},
+    "bootstrap-colorpicker": {}
+  }
+}

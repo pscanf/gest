@@ -1,0 +1,52 @@
+<template name="privateItemDetails">
+	<br />
+	<br />
+	<div class="col-sm-6">
+		<form id="privateItemDetails" role="form">
+			<div class="form-group">
+				<label for="name">Nome articolo</label>
+				<input name="name" class="form-control" type="text" placeholder="Nome articolo" value="{{name}}" disabled required />
+			</div>
+			<div class="form-group">
+				<label for="pickCode">Codice Pick</label>
+				<input name="pickCode" class="form-control" type="text" placeholder="Codice Pick" value="{{pickCode}}" disabled required />
+			</div>
+			<fieldset {{#unless editing}}disabled{{/unless}}>
+				<div class="form-group">
+					<label for="stockQuantity">Giacenza</label>
+					<input name="stockQuantity" class="form-control" type="number" min="0" placeholder="0" value="{{stockQuantity}}" />
+				</div>
+				<div class="checkbox">
+					<label>
+						<input name="forOffer" type="checkbox" {{#if forOffer}}checked{{/if}} />
+						Materiale da offrire
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input name="currentlyOffering" type="checkbox" {{#if currentlyOffering}}checked{{/if}} />
+						Correntemente offerto
+					</label>
+				</div>
+			</fieldset>
+			<br />
+			<div class="text-right">
+				{{#if editing}}
+					<button type="button" data-discard class="btn btn-default fw-100">
+						<i class="fa fa-times"></i>
+						Annulla
+					</button>
+					<button type="submit" class="btn btn-default fw-100">
+						<i class="fa fa-save"></i>
+						Salva
+					</button>
+				{{else}}
+				<button type="button" data-edit class="btn btn-default fw-100">
+					<i class="fa fa-pencil"></i>
+					Modifica
+				</button>
+				{{/if}}
+			</div>
+		</form>
+	</div>
+</template>

@@ -1,0 +1,12 @@
+<template name="privateItems">
+	<div id="privateItems" class="col-sm-10 col-sm-offset-1">
+		<div>
+			<br />
+			<span class="h3">Magazzino articoli</span>
+			{{> insertItem}}
+		</div>
+		<hr />
+		<br />
+		{{reactiveTable items settings}}
+	</div>
+</template>

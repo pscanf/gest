@@ -1,0 +1,90 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "collection2": {},
+      "roles": {},
+      "accounts-admin-ui-bootstrap-3": {},
+      "spin": {},
+      "font-awesome": {},
+      "accounts-ui-bootstrap-3": {},
+      "collection-hooks": {},
+      "fast-render": {},
+      "reactive-table": {},
+      "bootstrap-colorpicker": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.4",
+        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.3.9",
+        "commit": "fdda9b5c87e9dcb5cb67087ecb6c9f21352d0cc2"
+      },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.2.6",
+        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
+      },
+      "accounts-admin-ui-bootstrap-3": {
+        "git": "https://github.com/hharnisc/meteor-accounts-admin-ui-bootstrap-3.git",
+        "tag": "v0.2.3",
+        "commit": "c396f28bdcfa6f20c67948fe17841746337f9016"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.0.3",
+        "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "accounts-ui-bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
+        "tag": "v0.2.6",
+        "commit": "f3ee0ef6bc506314e19585550b4f9f5620c4ada6"
+      },
+      "collection-hooks": {
+        "git": "https://github.com/matb33/meteor-collection-hooks.git",
+        "tag": "v0.6.3",
+        "commit": "70f2598bf991cb36effd72aea2555cba96f88355"
+      },
+      "fast-render": {
+        "git": "https://github.com/arunoda/meteor-fast-render.git",
+        "tag": "v0.1.19",
+        "commit": "9e9a34e51885474c0dd9ed7a64dbff7ee9d4315c"
+      },
+      "reactive-table": {
+        "git": "https://github.com/ecohealthalliance/reactive-table.git",
+        "tag": "v0.2.5",
+        "commit": "379be7562d7000b0722ec67d0659f42ebab51d5d"
+      },
+      "bootstrap-colorpicker": {
+        "git": "https://github.com/nate-strauser/meteor-bootstrap-colorpicker.git",
+        "tag": "v0.1.0",
+        "commit": "d670a7bdc3c6104016a79190cc0280a4f6fe7329"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.2.41",
+        "commit": "c269b4e9ddb642cdc733c1f4190bcb7b28099e01"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.0-1",
+        "commit": "329dccb08bfc18c635676dea600ac9953162cda9"
+      },
+      "just-i18n": {
+        "git": "https://github.com/subhog/meteor-just-i18n.git",
+        "tag": "v0.2.2",
+        "commit": "90dfb52ab1c643d3fee76460a6a9083b1878d317"
+      }
+    }
+  }
+}

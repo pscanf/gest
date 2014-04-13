@@ -1,0 +1,51 @@
+<template name="sidebar">
+	<div id="sidebar">
+		<div>
+			<a href="{{pathFor 'privateHome'}}">
+				<img src="/logo_horizontal.png" width="210" alt="Logo" />
+			</a>
+		</div>
+		<ul class="nav">
+			<li>
+				<a href="{{pathFor 'privateItems'}}">
+					<span class="fw-20">
+						<i class="fa fa-list"></i>
+					</span>
+					Articoli
+				</a>
+			</li>
+			<li>
+				<a href="{{pathFor 'privatePersons'}}">
+					<span class="fw-20">
+						<i class="fa fa-male"></i>
+					</span>
+					Donatori
+				</a>
+			</li>
+			<li>
+				<a href="{{pathFor 'privateOrders'}}">
+					<span class="fw-20">
+						<i class="fa fa-shopping-cart"></i>
+					</span>
+					Ordini
+				</a>
+			</li>
+			<li>
+				<a href="{{pathFor 'privatePayments'}}">
+					<span class="fw-20">
+						<i class="fa fa-usd"></i>
+					</span>
+					Pagamenti
+				</a>
+			</li>
+			<li>
+				<a href="{{pathFor 'privateUsers'}}">
+					<span class="fw-20">
+						<i class="fa fa-users"></i>
+					</span>
+					Utenti
+				</a>
+			</li>
+		</ul>
+	</div>
+</template>

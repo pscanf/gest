@@ -1,0 +1,18 @@
+<template name="itemCard">
+	<div class="col-sm-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				{{card.title}}
+			</div>
+			<div class="panel-body item-card">
+				<div class="col-sm-6">
+					<img class="image-{{card.imgShape}}" width="200" src="{{card.imgSrc}}" alt="{{card.imgAlt}}" />
+				</div>
+				<div class="col-sm-6">
+					{{card.description}}
+				</div>
+				<button class="btn btn-default pull-bottom-right" type="button">Richiedi</button>
+			</div>
+		</div>
+	</div>
+</template>

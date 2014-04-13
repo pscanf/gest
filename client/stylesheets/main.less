@@ -1,0 +1,13 @@
+.fw(@width) {
+	.fw-@{width} {
+		width: unit(@width, px);
+	}
+	span.fw-@{width} {
+		display: inline-block;
+	}
+}
+
+.fw(20);
+.fw(30);
+.fw(50);
+.fw(100);
